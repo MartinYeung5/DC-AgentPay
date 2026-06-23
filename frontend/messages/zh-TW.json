@@ -1,0 +1,89 @@
+{
+  "brand": "AI 智能支付",
+  "tagline": "Injective 生態 AI 經濟的支付高速公路",
+  "nav": {
+    "dashboard": "控制台",
+    "agents": "Agent 管理",
+    "payments": "支付記錄",
+    "subscriptions": "訂閱",
+    "paymentMethods": "支付方式",
+    "billing": "帳單",
+    "admin": "管理員"
+  },
+  "common": {
+    "create": "建立",
+    "edit": "編輯",
+    "delete": "刪除",
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "search": "搜尋",
+    "status": "狀態",
+    "active": "運行中",
+    "paused": "已暫停",
+    "loading": "載入中…",
+    "empty": "暫無資料",
+    "actions": "操作"
+  },
+  "dashboard": {
+    "title": "控制台",
+    "subtitle": "即時洞察您的 AI Agent 支付生態",
+    "totalAgents": "Agent 總數",
+    "totalPayments": "累計支付",
+    "activeSubscriptions": "活躍訂閱",
+    "tokenUsed": "Token 用量",
+    "recentPayments": "近期支付",
+    "weeklyTrend": "近 7 日支付趨勢"
+  },
+  "agents": {
+    "title": "AI Agent 管理",
+    "subtitle": "建立、配置、監控你的鏈上 AI 代理",
+    "create": "新建 Agent",
+    "name": "名稱",
+    "did": "DID",
+    "wallet": "錢包地址",
+    "webhook": "Webhook 地址",
+    "description": "描述",
+    "avatar": "頭像 Emoji",
+    "deleteConfirm": "確定要刪除這個 Agent 嗎？該操作不可撤銷。"
+  },
+  "payments": {
+    "title": "支付記錄",
+    "subtitle": "所有 Agent 發起的鏈上支付流水",
+    "amount": "金額",
+    "to": "收款方",
+    "txHash": "交易雜湊",
+    "method": "支付方式",
+    "time": "時間"
+  },
+  "paymentMethods": {
+    "title": "支付方式",
+    "subtitle": "靈活配置 Web3 錢包、Stripe、支付寶等多種支付渠道",
+    "add": "新增支付方式",
+    "type": "類型",
+    "label": "名稱",
+    "default": "預設",
+    "setDefault": "設為預設",
+    "enabled": "已啟用",
+    "disabled": "已停用",
+    "types": {
+      "web3": "Web3 錢包",
+      "stripe": "Stripe 信用卡",
+      "alipay": "支付寶",
+      "wechat": "微信支付",
+      "bank": "銀行轉帳"
+    }
+  },
+  "subscriptions": {
+    "title": "訂閱管理",
+    "subtitle": "查看與管理所有 Agent 的鏈上訂閱",
+    "planId": "套餐 ID",
+    "nextCharge": "下次扣款"
+  },
+  "pricing": {
+    "title": "訂閱套餐管理",
+    "subscribe": "立即訂閱",
+    "month": "/月",
+    "tokenPrice": "DeepSeek Token 單價（每 1K tokens）"
+  }
+}

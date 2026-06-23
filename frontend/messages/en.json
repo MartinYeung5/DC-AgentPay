@@ -1,0 +1,89 @@
+{
+  "brand": "AI Smart Payment",
+  "tagline": "The payment highway for the AI economy on Injective",
+  "nav": {
+    "dashboard": "Dashboard",
+    "agents": "Agents",
+    "payments": "Payments",
+    "subscriptions": "Subscriptions",
+    "paymentMethods": "Payment Methods",
+    "billing": "Billing",
+    "admin": "Admin"
+  },
+  "common": {
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "search": "Search",
+    "status": "Status",
+    "active": "Active",
+    "paused": "Paused",
+    "loading": "Loading…",
+    "empty": "No data",
+    "actions": "Actions"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Real-time insights into your AI Agent payment ecosystem",
+    "totalAgents": "Total Agents",
+    "totalPayments": "Total Payments",
+    "activeSubscriptions": "Active Subscriptions",
+    "tokenUsed": "Token Usage",
+    "recentPayments": "Recent Payments",
+    "weeklyTrend": "Last 7 Days Trend"
+  },
+  "agents": {
+    "title": "AI Agents",
+    "subtitle": "Create, configure & monitor your on-chain AI agents",
+    "create": "New Agent",
+    "name": "Name",
+    "did": "DID",
+    "wallet": "Wallet",
+    "webhook": "Webhook URL",
+    "description": "Description",
+    "avatar": "Avatar Emoji",
+    "deleteConfirm": "Delete this Agent? This action cannot be undone."
+  },
+  "payments": {
+    "title": "Payments",
+    "subtitle": "On-chain transactions from all your agents",
+    "amount": "Amount",
+    "to": "Recipient",
+    "txHash": "Tx Hash",
+    "method": "Method",
+    "time": "Time"
+  },
+  "paymentMethods": {
+    "title": "Payment Methods",
+    "subtitle": "Configure Web3 wallets, Stripe, Alipay and more",
+    "add": "Add Payment Method",
+    "type": "Type",
+    "label": "Label",
+    "default": "Default",
+    "setDefault": "Set as Default",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "types": {
+      "web3": "Web3 Wallet",
+      "stripe": "Stripe",
+      "alipay": "Alipay",
+      "wechat": "WeChat Pay",
+      "bank": "Bank Transfer"
+    }
+  },
+  "subscriptions": {
+    "title": "Subscriptions",
+    "subtitle": "Manage all on-chain subscriptions",
+    "planId": "Plan ID",
+    "nextCharge": "Next Charge"
+  },
+  "pricing": {
+    "title": "Subscription Plans",
+    "subscribe": "Subscribe",
+    "month": "/mo",
+    "tokenPrice": "DeepSeek Token Price (per 1K tokens)"
+  }
+}
