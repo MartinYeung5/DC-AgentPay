@@ -1,5 +1,72 @@
 # DC AgentPay
 
+Decentralized AI Payment-as-a-Service Protocol built on the Injective blockchain.
+
+## ✨ Key Highlights
+
+- 🎨 **UI Design**: Glassmorphism + gradient brand colors, delivering a desktop-grade professional experience.
+- 💳 **Multiple Payment Methods**: Web3 wallet / Stripe / Alipay / WeChat Pay / bank transfer – users can configure their own preferred channels.
+- 🤖 **Full Agent Lifecycle Management**: Create, edit, pause, and delete agents with ease.
+- 📊 **Real‑Time Dashboard**: Statistics cards, 7‑day trend charts, and recent payment history.
+- 🧪 **Complete Automated Testing**: Contract tests + backend tests + SDK tests + E2E + CI/CD.
+
+## 📁 Project Structure
+
+```
+ai-smart-payment/
+├── contracts/          # Solidity smart contracts (Hardhat + automated tests)
+├── backend/            # NestJS API (includes seed scripts and Jest unit tests)
+├── sdk/                # @ai-pay/sdk (tested with Vitest + MSW)
+├── mcp-server/         # MCP tool server
+├── frontend/           # Next.js 14 (blue professional UI + Playwright E2E)
+├── .github/workflows/  # GitHub Actions CI
+├── Makefile            # One‑command collection
+└── docker-compose.yml
+```
+
+## 🚀 Quick Start (with Seed Data)
+
+```bash
+# 1. Install all dependencies
+make install
+
+# 2. Start databases
+docker compose up -d postgres redis
+
+# 3. Run migrations + seed data
+make seed
+
+# 4. Start the backend
+cd backend && npm run start:dev &
+
+# 5. Start the frontend
+cd frontend && npm run dev
+
+# 6. Visit http://localhost:3000
+```
+
+## 🧪 Running Automated Tests
+
+```bash
+make test-all      # Contract + backend + SDK unit tests
+make coverage      # Generate coverage report
+cd frontend && npm run test:e2e   # Frontend E2E tests
+```
+
+## 📷 Page Overview
+
+| Page | Path | Function |
+|------|------|----------|
+| Dashboard | `/zh-CN/dashboard` | 4 statistic cards + 7‑day trend + recent transactions |
+| Agent Management | `/zh-CN/agents` | CRUD, pause/activate, card view |
+| Payment Records | `/zh-CN/payments` | Full transaction table |
+| Subscription Management | `/zh-CN/subscriptions` | Subscription cards + next billing date |
+| Payment Methods | `/zh-CN/payment-methods` | Dynamic configuration for 5 payment channels |
+| Admin Pricing | `/zh-CN/admin/pricing` | Plan pricing + DeepSeek Token unit price |
+
+
+# DC AgentPay
+
 基于 Injective 区块链构建的去中心化 AI 支付即服务协议。
 
 ## ✨ 核心亮点
@@ -68,3 +135,5 @@ cd frontend && npm run test:e2e   # 前端 E2E
 ## 📜 License
 
 MIT
+
+
