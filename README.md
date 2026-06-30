@@ -133,7 +133,6 @@ cd frontend && npm run test:e2e   # 前端 E2E
 | 管理员定价 | `/zh-CN/admin/pricing` | 套餐 + DeepSeek Token 单价 |
 
 ## 📜 License
-
 MIT
 
 
