@@ -132,6 +132,14 @@ cd frontend && npm run test:e2e   # 前端 E2E
 | 支付方式 | `/zh-CN/payment-methods` | 5 类支付渠道动态配置 |
 | 管理员定价 | `/zh-CN/admin/pricing` | 套餐 + DeepSeek Token 单价 |
 
+## Smart Contract
+Deployer: 0x998EC7Fc98f50CB4173E33bbd381135ED5856814
+AgentRegistry      : 0x4abfB5bECAeAC30fB956196EA0C7cfAf4b21Ef2C
+SubscriptionManager: 0x4A99E2ed703215c7cd83b62aFeC8c9e08F3BB704
+BatchSettlement    : 0xe483799fda8404F7C4d2d4E91A37D4c27047456E
+PaymentProxy       : 0x52A3c4243d4a4F8E16ad4e75360C235948673Eed
+
+
 ## 📜 License
 MIT
 
