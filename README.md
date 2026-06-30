@@ -24,7 +24,7 @@ ai-smart-payment/
 └── docker-compose.yml
 ```
 
-## 🚀 Quick Start (with Seed Data)
+## 🚀 Quick Start 
 
 ```bash
 # 1. Install all dependencies
@@ -91,7 +91,7 @@ ai-smart-payment/
 └── docker-compose.yml
 ```
 
-## 🚀 快速启动（含假数据）
+## 🚀 快速启动
 
 ```bash
 # 1. 安装所有依赖
